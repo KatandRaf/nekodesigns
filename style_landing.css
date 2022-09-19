@@ -1,0 +1,90 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.mom{
+   background: url(bench-accounting-nvzvOPQW0gc-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /*border: 2px solid red;*/
+
+  }
+
+  .text-uppercase{
+    text-shadow: 2px 2px 2px #ac5f2f;
+  }
+
+
+.child_one{
+ /* border: 2px solid red;*/
+  display: flex;
+  color: #eeeeed;
+  width: 1000x;
+   height: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-bottom: 145px;
+}
+
+.child_two{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+}
+
+.btn {
+  border-radius: 20px;
+  padding: 8px 12px;
+  background-color: black;
+  border-color: black;
+}
+
+
+.btn:hover{
+  transform: scale(1.3);
+  transition: 1s;
+  /*border-width: 5px;*/
+  background-color: green;
+  border-color: green;
+}
+
+
+
+.new1{
+    border: 3px solid red;
+    max-width: 65px;
+    margin: 5px auto;
+    border-color: red;
+    
+  }
+
+
+  .new2{
+    border-top: 3px solid black;
+    width: 65px;
+    margin: 5px auto;
+    border-color: black;
+    border-radius: 2px;
+  }
+
+
+.new2:hover{
+  transform: scale(1.3);
+  transition: 1s;
+}
+
+
